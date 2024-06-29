@@ -5,7 +5,7 @@ import matplotlib.backends.backend_pdf
 
 dir = sys.argv[1]
 group_num = int(sys.argv[2])
-num_nodes = int(sys.argv[3])
+num_nodes = int(sys.argv[7])
 
 file_pattern = "dag-experiments-node-{}/sample_latencies.json"
 
